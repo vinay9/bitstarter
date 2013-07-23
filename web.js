@@ -4,11 +4,11 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
   var data=fs.readFileSync('index.html');
-response.send(data.toString('utf-8'));  
-
+response.send(data.toString());  
 });
 
-var port = process.env.PORT || 5000;
+//Updated to run on port 8080
+var port = process.env.PORT || 8080;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
