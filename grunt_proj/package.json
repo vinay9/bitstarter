@@ -1,0 +1,38 @@
+{
+  "name": "filesearch",
+  "description": "Awesome",
+  "version": "0.1.0",
+  "homepage": "https://github.com/vinay9/bitstarter",
+  "author": {
+    "name": "vinay9",
+    "email": "t@t.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vinay9/bitstarter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinay9/bitstarter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vinay9/bitstarter/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/filesearch",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [],
+  "preferGlobal":"true",
+  "bin":{
+        "filesearch":"lib/filesearch.js"
+   }
+} 
